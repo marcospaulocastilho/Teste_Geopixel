@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'teste-geopixel-app';
+
+  nomes = ['marcos','paulo'];
+
+incluir_dados(){
+  this.nomes.push("#")
+}
+
 }
